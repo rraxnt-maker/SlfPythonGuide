@@ -1,0 +1,40 @@
+# Простое условие
+возраст = 18
+if возраст >= 18:
+    print("Ты совершеннолетний")
+else:
+    print("Ты несовершеннолетний")
+
+# Несколько условий
+оценка = 85
+if оценка >= 90:
+    print("Отлично!")
+elif оценка >= 70:
+    print("Хорошо!")
+elif оценка >= 50:
+    print("Удовлетворительно")
+else:
+    print("Неудовлетворительно")
+
+# Комбинированные условия
+число = 15
+if число > 10 and число < 20:
+    print("Число между 10 и 20")
+
+if число < 5 or число > 25:
+    print("Число меньше 5 или больше 25")
+
+
+numberr = int(input("Enter any number: "))
+if numberr > 0:
+    print(f"{numberr} is positive")
+elif numberr == 0:
+    print(f"{numberr} is equalz zero" )
+else:
+    print(f"{numberr} is negative")
+
+if numberr != 0:
+    if numberr % 2 == 0:
+        print("also even number")
+    else:
+        print("odd number")
