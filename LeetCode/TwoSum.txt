@@ -1,0 +1,28 @@
+LeetCode
+TwoSum
+the exactly first leet code exersize
+
+giving an array of int example[2, 7, 11, 15]
+and one input num exampl 9
+
+you should find the exact one solution of two int that sums in one inp num
+
+2 + 7 = 9
+
+[2, 1, 5, 3]
+
+Bruteforce O(n^2)
+
+One pass(hash map)
+
+prevMap = {}
+
+for i, n in enumerate(nums):
+    diff = target - n:
+    if diff in prevMap:
+        return [prevMap[diff], i]
+    prevMap[n] = i
+return
+
+
+
